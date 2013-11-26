@@ -1,0 +1,258 @@
+/* ====== Misc ====== */
+.arrow-up {
+	width:0px; 
+  height:0px; 
+  border-left:5px solid transparent;  /* left arrow slant */
+  border-right:5px solid transparent; /* right arrow slant */
+  border-bottom:5px solid #2f2f2f; /* bottom, add background color here */
+  font-size:0px;
+  line-height:0px;
+}
+
+/* ======= Left Menu & Panel ===== */
+div#leftMenu {
+float: left;
+width: 35%;
+}
+
+div strong.title {
+display: block;
+
+padding: 0px;
+
+border-top-left-radius: 5px; 
+border-top-right-radius: 5px;
+
+color: #FFF;
+
+width: 100%; 
+height: 35px;
+line-height: 35px;
+text-align: center;
+
+ background:#00C;
+  /* Vendor/Browser specific properties -- Will not validate in basic CSS3 validator. See readme.txt */
+	background:-moz-linear-gradient(top,#00C 0%,#009 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#00C),color-stop(100%,#009));
+	background:-webkit-linear-gradient(top,#00C 0%,#009 100%);
+	background:-o-linear-gradient(top,#00C 0%,#009 100%);
+	background:-ms-linear-gradient(top,#00C 0%,#009 100%);
+	background:linear-gradient(top,#00C 0%,#009 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00C',endColorstr='#009',GradientType=0);
+	/* End of Vendor/Browser specific properties -- If you comment this block out the CSS code will validate, without these vendor/browser specifics. */
+
+}
+
+/* ====== Category Menu ===== */
+div#categoryMenu strong.title {
+display: block;
+
+padding: 0px;
+
+border-top-left-radius: 5px; 
+border-top-right-radius: 5px;
+
+color: #FFF;
+
+width: 100%; 
+height: 35px;
+line-height: 35px;
+text-align: center;
+
+ background:#00C;
+  /* Vendor/Browser specific properties -- Will not validate in basic CSS3 validator. See readme.txt */
+	background:-moz-linear-gradient(top,#00C 0%,#009 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#00C),color-stop(100%,#009));
+	background:-webkit-linear-gradient(top,#00C 0%,#009 100%);
+	background:-o-linear-gradient(top,#00C 0%,#009 100%);
+	background:-ms-linear-gradient(top,#00C 0%,#009 100%);
+	background:linear-gradient(top,#00C 0%,#009 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00C',endColorstr='#009',GradientType=0);
+	/* End of Vendor/Browser specific properties -- If you comment this block out the CSS code will validate, without these vendor/browser specifics. */
+
+
+}
+
+div#categoryMenu ul {
+
+border: 1px solid #000;
+
+/* margin-left: 1em; */
+padding-left: 1.5em;
+
+border-bottom-left-radius: 5px; 
+border-bottom-right-radius: 5px;
+
+background:#F0FFFF;
+
+}
+
+div#categoryMenu ul li {
+
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+/* ======= Cart ======= */
+div#cart {
+border: 1px solid #000;
+border-top-left-radius: 5px; 
+border-top-right-radius: 5px; 
+border-bottom-left-radius: 5px; 
+border-bottom-right-radius: 5px;
+background:#F0FFFF;
+padding-bottom: 5px;
+}
+
+div#cart table {
+width: 100%;
+}
+
+div#cart table td {
+
+}
+
+div#cart table td.quantity {
+padding-left: 0px;
+padding-right: 0px;
+width: 10px;
+}
+div#cart table td input.quantity {
+width: 100%;
+height: 100%;
+border: 0px;
+font-size: 17px;
+text-align: right;
+}
+
+div#cart table td.price {
+padding-right: 10px;
+text-align: right;
+}
+
+div#cart table td button.removeItem {
+
+ padding:2px 4px; 
+  
+	/* color:#fff; */
+	color: red;
+	font-family:'Helvetica Neue',sans-serif;
+	font-size:17px;
+	
+	border: 0px;
+
+  background:#00C;
+  /* Vendor/Browser specific properties -- Will not validate in basic CSS3 validator. See readme.txt */
+	background:-moz-linear-gradient(top,#00C 0%,#009 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#00C),color-stop(100%,#009));
+	background:-webkit-linear-gradient(top,#00C 0%,#009 100%);
+	background:-o-linear-gradient(top,#00C 0%,#009 100%);
+	background:-ms-linear-gradient(top,#00C 0%,#009 100%);
+	background:linear-gradient(top,#00C 0%,#009 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00C',endColorstr='#009',GradientType=0);
+	/* End of Vendor/Browser specific properties -- If you comment this block out the CSS code will validate, without these vendor/browser specifics. */
+
+}
+
+div#cart #noCart {
+padding: 10px;
+}
+
+
+/* =============== Catalog ================== */
+div#catalog {
+float: left;
+padding-left: 10px;
+width: 60%;
+}
+
+div#catalog table , div#cart table {
+width: 100%;
+border-color: #009;
+border-collapse: collapse;
+}
+
+div#catalog table tr.title, div#cart table tr.title {
+
+color: #FFF;
+
+width: 100%; 
+height: 35px;
+line-height: 35px;
+text-align: center;
+
+ background:#00C;
+  /* Vendor/Browser specific properties -- Will not validate in basic CSS3 validator. See readme.txt */
+	background:-moz-linear-gradient(top,#00C 0%,#009 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#00C),color-stop(100%,#009));
+	background:-webkit-linear-gradient(top,#00C 0%,#009 100%);
+	background:-o-linear-gradient(top,#00C 0%,#009 100%);
+	background:-ms-linear-gradient(top,#00C 0%,#009 100%);
+	background:linear-gradient(top,#00C 0%,#009 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00C',endColorstr='#009',GradientType=0);
+	/* End of Vendor/Browser specific properties -- If you comment this block out the CSS code will validate, without these vendor/browser specifics. */
+
+}
+
+div table tr.title a {
+display: block;
+}
+
+/* ===== Pseudo-Elements ===== */
+div table tr.title a:link { color: #F0FFFF; text-decoration: none; }
+div table tr.title a:visited { color: #F0FFFF; text-decoration: none; }
+div table tr.title a:hover { color: #F0FFFF;  text-decoration: none; }
+div table tr.title a:active { color: #F0FFFF;  text-decoration: none; }
+
+div#catalog table tr {
+background-color: #C0CCFF;
+}
+
+div#catalog table tr.odd {
+background-color: #F0FFFF;
+}
+
+div#catalog table tr td:not(.addToCart) {
+padding-left: 10px;
+}
+
+div#catalog table tr td.price {
+padding-right: 10px;
+text-align: right;
+}
+
+div#catalog table tr td .addToCart, div#catalog table tr td button.addToCart {
+  display: block; 
+  
+   /*	padding:8px 13px; */
+	color:#fff;
+	font-family:'Helvetica Neue',sans-serif;
+	font-size:17px;
+	
+	padding-left: 0px;
+	
+	border: 0px;
+	border-radius:0px;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	border:1px solid #009;
+
+  box-sizing: content-box;
+  /*box-sizing: border-box;*/
+  
+  width: 100%;
+  height: 100%;  
+   
+  background:#00C;
+  /* Vendor/Browser specific properties -- Will not validate in basic CSS3 validator. See readme.txt */
+	background:-moz-linear-gradient(top,#00C 0%,#009 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#00C),color-stop(100%,#009));
+	background:-webkit-linear-gradient(top,#00C 0%,#009 100%);
+	background:-o-linear-gradient(top,#00C 0%,#009 100%);
+	background:-ms-linear-gradient(top,#00C 0%,#009 100%);
+	background:linear-gradient(top,#00C 0%,#009 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00C',endColorstr='#009',GradientType=0);
+	/* End of Vendor/Browser specific properties -- If you comment this block out the CSS code will validate, without these vendor/browser specifics. */
+
+}
+

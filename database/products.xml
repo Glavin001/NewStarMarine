@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Product list database in xml -->
+<DATABASE>
+  
+  <CATEGORY>
+    <CATNAME>Outboards Motors</CATNAME>
+    <PRODUCT>
+      <PRODNAME>2.6 HP</PRODNAME>
+      <PRICE>795.00</PRICE>
+      <IMGSRC>aps2.6HP.gif</IMGSRC>
+      <DESCR><![CDATA[
+            Technical Info: <br />
+OverallLength: 25 in <br />
+Overall Width: 13.5 in <br />
+Overall Height: 39.9 in (44.9 Long Shaft) <br />
+Weight: 17 kg / 37.4 lbs (18 kg / 39.6 lbs Long Shaft) <br />
+Full Throttle Operating Range: 5250-5750 r/min <br />
+Maximum Output: 1.9(2.6)@5500 <br />
+Engine Type: OHV <br />
+Displacement (cc): 72 <br />
+Bore x Stroke: 2.13x1.24 in. <br />
+Ignition System: TCI <br />
+Control System: Tiller  <br />
+Rear Positions: For./Neut. <br />
+Gear Ratio: 2.08 (27/13) <br />
+Trim & Tilt System: Manual <br />
+Fuel Tank Capacity: Integral 1.2 L / 0.312 gal <br />
+Engine Oil Cap. (w/o oil filter): 0.35 L / 0.091 gal <br />
+Propeller Options: 3-7 1/4 x 6  <br />
+      ]]></DESCR>
+    </PRODUCT>
+    <PRODUCT>
+      <PRODNAME>5 HP</PRODNAME>
+      <PRICE>1095.00</PRICE>
+      <IMGSRC>aps5HP.gif</IMGSRC>
+      <DESCR><![CDATA[
+      5 Horse power outboard motor!
+      ]]></DESCR>
+    </PRODUCT>
+    <PRODUCT>
+      <PRODNAME>9.8 HP</PRODNAME>
+      <PRICE>1795.00</PRICE>
+      <IMGSRC>aps9.8HP.gif</IMGSRC>
+      <DESCR><![CDATA[
+      9.8 Horse power outboard motor!
+      ]]></DESCR>
+    </PRODUCT>
+    <PRODUCT>
+      <PRODNAME>15 HP</PRODNAME>
+      <PRICE>2095.00</PRICE>
+      <IMGSRC>aps15HP.gif</IMGSRC>
+      <DESCR><![CDATA[
+      15 Horse power outboard motor!
+      ]]></DESCR>
+    </PRODUCT>
+  </CATEGORY>
+  
+  <CATEGORY>
+    <CATNAME>Scooters</CATNAME>
+    <PRODUCT>
+      <PRODNAME>Electric</PRODNAME>
+      <PRICE>2000.00</PRICE>
+      <!--<IMGSRC>69-orange_e-conomy.png</IMGSRC> -->
+      <IMGSRC>electricScooter.gif</IMGSRC>
+      <DESCR><![CDATA[
+      Electric powered scooter!
+      ]]></DESCR>
+    </PRODUCT>
+    <PRODUCT>
+      <PRODNAME>Gas</PRODNAME>
+      <PRICE>1500.00</PRICE>
+      <!--<IMGSRC>12-red_nitrotest_small.png</IMGSRC>-->
+      <IMGSRC>gasScooter.gif</IMGSRC>
+      <DESCR><![CDATA[
+      Gas powered scooter!
+      ]]></DESCR>
+    </PRODUCT>
+  </CATEGORY>
+  
+  <CATEGORY>
+    <CATNAME>Inflatables</CATNAME>
+    <PRODUCT>
+      <PRODNAME>APS Wind</PRODNAME>
+      <PRICE>100.00</PRICE>
+      <IMGSRC>12-red_nitrotest_small.png</IMGSRC>
+      <DESCR><![CDATA[
+      APS Wind Inflatable
+      ]]></DESCR>
+    </PRODUCT>
+    <PRODUCT>
+      <PRODNAME>APS Pro</PRODNAME>
+      <PRICE>200.00</PRICE>
+      <IMGSRC>12-red_nitrotest_small.png</IMGSRC>
+      <DESCR><![CDATA[
+      APS Pro Inflatable
+      ]]></DESCR>
+    </PRODUCT>
+    <PRODUCT>
+      <PRODNAME>APS Pro Sport</PRODNAME>
+      <PRICE>300.00</PRICE>
+      <IMGSRC>12-red_nitrotest_small.png</IMGSRC>
+      <DESCR><![CDATA[
+      APS Pro Sport Inflatable
+      ]]></DESCR>
+    </PRODUCT>
+    <PRODUCT>
+    <PRODNAME>APS Fly</PRODNAME>
+      <PRICE>350.00</PRICE>     
+      <IMGSRC>12-red_nitrotest_small.png</IMGSRC>
+      <DESCR><![CDATA[
+      APS Fly Inflatable
+      ]]></DESCR> 
+    </PRODUCT>
+    <PRODUCT>
+      <PRODNAME>APS Star</PRODNAME>
+      <PRICE>400.00</PRICE>    
+      <IMGSRC>12-red_nitrotest_small.png</IMGSRC>
+      <DESCR><![CDATA[
+      APS Star Inflatable
+      ]]></DESCR>
+      </PRODUCT>
+  </CATEGORY>
+
+</DATABASE>

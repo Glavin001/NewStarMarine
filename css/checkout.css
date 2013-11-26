@@ -1,0 +1,79 @@
+/* checkout.css */
+
+/* For Personal Info Form */
+span.infoLabel {
+font-weight: bold;
+}
+
+/* For Bill Form */
+form table#bill {
+width: 100%;
+border-color: #009;
+border-collapse: collapse;
+}
+
+div table#bill tr.title {
+color: #FFF;
+width: 100%; 
+height: 35px;
+line-height: 35px;
+text-align: center;
+
+ background:#00C;
+   /* Vendor/Browser specific properties -- Will not validate in basic CSS3 validator. See readme.txt */
+	background:-moz-linear-gradient(top,#00C 0%,#009 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#00C),color-stop(100%,#009));
+	background:-webkit-linear-gradient(top,#00C 0%,#009 100%);
+	background:-o-linear-gradient(top,#00C 0%,#009 100%);
+	background:-ms-linear-gradient(top,#00C 0%,#009 100%);
+	background:linear-gradient(top,#00C 0%,#009 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00C',endColorstr='#009',GradientType=0);
+	/* End of Vendor/Browser specific properties -- If you comment this block out the CSS code will validate, without these vendor/browser specifics. */
+
+}
+
+form table#bill td {
+text-align: right;
+/* background-color: #C0CCFF; */
+}
+/*
+form table#bill tr.odd {
+background-color: #F0FFFF;
+}
+*/
+
+form table#bill td input.quantity, form table#bill td input[type=button] {
+  display: block;  
+  box-sizing: content-box;
+  font-size: 17px;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  border-radius: 0px;
+  padding: 0px;
+  text-align: right;
+}
+
+form table#bill td.quantity {
+width: 10px;
+text-align: right;
+}
+
+form table#bill td input[type=button].removeFromCart {
+  color: red;
+  text-align: center;
+}
+
+form table#bill td.price, form table#bill td.name {
+padding-right: 10px;
+text-align: right;
+}
+
+
+/* ===== Pseudo-Elements ===== */
+form table#bill tr.title td a:link, form table#bill tr.title td a:visited, form table#bill tr.title td a:hover, form table#bill tr.title td a:active 
+{ 
+color: #FFF; 
+text-decoration: none; 
+}
+
